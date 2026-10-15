@@ -1,0 +1,3 @@
+const dialog=document.querySelector('dialog');
+if(dialog){const image=dialog.querySelector('img');document.querySelectorAll('.shot').forEach(button=>button.addEventListener('click',()=>{image.src=button.querySelector('img').src;image.alt=button.querySelector('img').alt;dialog.showModal();}));dialog.querySelector('button').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});}
+// Locale links are ordinary URLs: no cookies, analytics or browser storage.

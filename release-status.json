@@ -1,0 +1,12 @@
+{
+  "legal_ready": true,
+  "android_privacy_verified": false,
+  "play_store_url": null,
+  "website_ready": true,
+  "notes": [
+    "Publisher details and 12-month support retention confirmed by user",
+    "Publisher identifies as a private individual, not a registered business",
+    "App is explicitly pre-release; verify signed Android SDK/network/backup behavior before store release",
+    "Review Austrian registration/disclosure obligations if the project becomes a commercial activity"
+  ]
+}
